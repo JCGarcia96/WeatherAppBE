@@ -22,14 +22,20 @@ Go to the project directory
   cd WeatherApp/WeatherAppBE
 ```
 
-Run on a specific port **NOTE: Frontend points to this port when calling the api**
+Run on a specific port
+**(NOTE: Frontend points to this port when calling the api)**
 
 ```bash
   dotnet run --urls=http://localhost:5170/
 ```
 
+For Swagger type in browser:
+```bash
+  http://localhost:5170/swagger
+```
+
 ## Links
-[Weather App Frontent](https://github.com/JCGarcia96/WeatherApp/)
+[Weather App Frontend](https://github.com/JCGarcia96/WeatherApp/)
 
 ## License
 
