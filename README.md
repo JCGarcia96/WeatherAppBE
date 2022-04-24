@@ -23,7 +23,7 @@ Go to the project directory
 ```
 
 Run on a specific port
-**(NOTE: Frontend points to this port when calling the api)**
+**(NOTE: Frontend points to port 5170 when calling this api)**
 
 ```bash
   dotnet run --urls=http://localhost:5170/
